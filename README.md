@@ -14,4 +14,5 @@ Logistics companies deliver consignments across the globe to the global demands 
 
 <video width="600" controls>
   <source src="demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
 </video>
