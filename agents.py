@@ -9,7 +9,6 @@ import os
 import pickle
 from rag import rag
 
-#fw_3ZGTegTnhTMhgi7fLR6FVTFk
 os.environ['FIREWORKS_API_KEY'] = "FIREWORKS_API_KEY"
 client = LlamaStackAsLibraryClient("fireworks", provider_data = {"fireworks_api_key": os.environ['FIREWORKS_API_KEY']})
 _ = client.initialize()
